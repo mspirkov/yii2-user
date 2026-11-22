@@ -24,12 +24,6 @@
         "yiisoft/yii2": "~2.0.45",
         "firebase/php-jwt": "^6.0"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "ZakharovAndrew\\user\\": "src"
@@ -37,11 +31,6 @@
     },
     "fxp-asset": {
         "enabled": false
-    },
-    "config": {
-        "allow-plugins": {
-            "yiisoft/yii2-composer": true
-        }
     },
     "require-dev": {
         "phpstan/phpstan": "^2.3",
